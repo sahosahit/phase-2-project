@@ -1,0 +1,272 @@
+body { 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.jumbotron,body{
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(-45deg,red,green,blue,orange);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+    margin-bottom: 10px;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.icons{
+    display: inline;
+    padding: 5px;
+}
+i{
+    padding: 5px;
+}
+.name{
+    float: right;
+    color: rgb(196, 194, 191);
+    opacity: 0.5;
+}
+.name h1{
+    font-size: 2em;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 10px;
+}
+.header {
+    font-size: large;
+    font-weight: 600;
+}
+.header li{
+    padding-left: 15px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.header,.footer{
+    margin: 0px;
+}
+.img-circle{
+    width: 50%;
+    height: 50%;
+}
+.login-img{
+    height: 200px;
+    width: 200px;
+}
+.login-block5{
+    background: rgba(0,0,0,0.5);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px;
+    width :400px;
+}
+.form-control{
+    width: 200px;
+    float: right;
+    display: block;
+}
+#login{
+    color: white;
+}
+.form-group5{
+    width: 400px;
+    margin: 15px auto;
+    vertical-align: middle;
+}
+.matter{
+    background: rgba(37, 228, 37, 0.5);
+    border-radius: 25px;
+    padding: 10px;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+nav{
+    padding: 5px 50px 5px 50px;
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: 800;
+}
+.imgdiv1,.imgdiv2,.imgdiv3,.imgdiv4,.imgdiv5,.imgdiv6,.imgdiv8,.imgdiv9,.imgdiv10,.imgdiv11,.imgdiv12{
+    float: right;
+    width: 40%;
+    height: 80vh;
+}
+.imgdiv7{
+    position: absolute;
+    left: 670px;
+} 
+.imgdiv7{
+    position: absolute;
+    bottom: 500px;
+} 
+.imgdiv1 img{
+    width: 277.5px;
+    height: 523px;
+}
+.imgdiv2 img{
+    width: 550px;
+    height: 550px;
+}
+.imgdiv3 img{
+    width: 500px;
+    height: 500px;
+}
+.imgdiv4 img{
+    width: 400px;
+    height: 500px;
+}
+.imgdiv5 img{
+    width: 374px;
+    height: 530px;
+}
+.imgdiv6 img{
+    width: 500px;
+    height: 500px;
+}
+.imgdiv7 img{
+    width: 850px;
+    height: 285px;
+}
+.imgdiv8 img{
+    width: 345px;
+    height: 578px;
+}
+.imgdiv9 img{
+    width: 510px;
+    height: 510px;
+}
+.imgdiv10 img{
+    width: 510px;
+    height: 510px;
+}
+.imgdiv11 img{
+    width: 480px;
+    height: 240px;
+}
+.imgdiv12 img{
+    width: 500px;
+    height: 500px;
+}
+.crewmat{
+    height: fit-content;
+    vertical-align: middle;
+    text-align: center;
+    background: rgba(14, 212, 40, 0.5);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px;
+    width :40%;
+}
+.hidinfo{
+    display: none;
+}
+
+@media(min-width: 992px){
+.crewtable tr td{
+    width: 10%;
+    text-align: center;
+}
+.crewtable tr{
+    width: fit-content;
+    height: 17.4vh;
+    margin:auto;
+}
+}
+@media(max-width: 991px) and (min-width: 442px){
+    .crewtable tr td{
+        width: 30%;
+        text-align: center;
+        display: inline-block;
+    }
+    .crewtable tr{
+        width: fit-content;
+        height: 17.4vh;
+        margin: auto;
+    }
+}
+@media(max-width: 441px){
+    .crewtable tr td{
+        width: 50%;
+        text-align: center;
+        display: inline-block;
+    }
+    .crewtable tr{
+        width: fit-content;
+        height: 17.4vh;
+        margin: auto;
+    
+    }
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  .container {
+    position: relative;
+  }
+
+  .mySlides {
+    display: none;
+    background: rgba(0,0,0,0.5);
+    border-radius: 25px;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 16.66%;
+    height: 300px;
+  }
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+.logo1{
+    float:left;
+    width: auto;
+}
+.logo{
+    float:right;
+    width: auto;
+    position: absolute;
+    top: 600px;
+    left: 1300px;
+}
